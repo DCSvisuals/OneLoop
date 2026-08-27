@@ -6,8 +6,8 @@ GitHub Pages site for OneLoop.
 | --- | --- |
 | Home | https://dcsvisuals.github.io/OneLoop/home/ |
 | Privacy Policy | https://dcsvisuals.github.io/OneLoop/PrivacyPolicy/ |
+| Support | https://dcsvisuals.github.io/OneLoop/support/ |
+| Medical Disclaimer | https://dcsvisuals.github.io/OneLoop/disclaimer/ |
+| Auth callback | https://dcsvisuals.github.io/OneLoop/auth-callback/ |
 
-Support and auth-callback remain on the previous Pages site for now:
-
-- https://dcsvisuals.github.io/OneLoop-MedicationTracker-PrivacyPolicy/support/
-- https://dcsvisuals.github.io/OneLoop-MedicationTracker-PrivacyPolicy/auth-callback/
+Add the auth-callback HTTPS URL to **Supabase → Authentication → URL Configuration → Redirect URLs** (and Site URL if needed).
