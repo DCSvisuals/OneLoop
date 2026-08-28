@@ -9,7 +9,7 @@ GitHub Pages site for OneLoop.
 | Support | https://dcsvisuals.github.io/OneLoop/support/ |
 | Medical Disclaimer | https://dcsvisuals.github.io/OneLoop/disclaimer/ |
 | Auth callback | https://dcsvisuals.github.io/OneLoop/auth-callback/ |
-| Android APK | https://github.com/DCSvisuals/OneLoop-Medication-TrackerAndroid/releases/latest |
+| Android APK | https://github.com/DCSvisuals/OneLoop-Medication-TrackerAndroid/releases/download/v2.0.1-android-sideload/OneLoop-sideload.apk |
 
 Android is in its first beta testing phase. iOS beta testing is coming soon for iOS 18+ (including future iOS betas).
 

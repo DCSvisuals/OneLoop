@@ -707,6 +707,55 @@ h1 {
   color: var(--navy);
 }
 
+.apk-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(10, 14, 22, 0.62);
+  backdrop-filter: blur(8px);
+}
+
+.apk-modal[hidden] {
+  display: none;
+}
+
+.apk-modal-card {
+  width: min(100%, 440px);
+  padding: 24px;
+  border-radius: var(--radius);
+  background: var(--card);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.apk-modal-card h2 {
+  margin: 8px 0 12px;
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+.apk-modal-card p {
+  margin: 0 0 20px;
+  color: var(--muted);
+}
+
+.apk-modal-card .actions {
+  margin: 0;
+}
+
+.apk-modal-card .button {
+  cursor: pointer;
+  font: inherit;
+}
+
+body.apk-modal-open {
+  overflow: hidden;
+}
+
 @media (max-width: 860px) {
   .hero,
   .features,
